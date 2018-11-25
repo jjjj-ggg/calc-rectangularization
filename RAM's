@@ -15,7 +15,7 @@ while i <= (b-((b-a)/n)):
     LRAM.append(A)
     i += ((b-a)/n)
 print("LRAM= ", sum(LRAM))
-print (LRAM)
+#print (LRAM)
 print("")
 
 #RRAM
@@ -28,7 +28,7 @@ while i <= b:
     RRAM.append(A)
     i += ((b-a)/n)
 print("RRAM= ,", sum(RRAM))
-print(RRAM)
+#print(RRAM)
 print("")
 
 #MRAM
@@ -41,4 +41,4 @@ while i <= (b-((b-a)/(2*n))):
     MRAM.append(A)
     i += ((b-a)/n)
 print("MRAM= ", sum(MRAM))
-print(MRAM)
+#print(MRAM)
