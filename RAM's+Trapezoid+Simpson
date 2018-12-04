@@ -45,8 +45,10 @@ print("MRAM= ", sum(MRAM))
 print("")
 
 #TRAPEZOIDAL RULE
-TRAP= (sum(LRAM)+sum(RRAM))/2
+TRAP = (sum(LRAM)+sum(RRAM))/2
 print("With the trapezoidal rule: T= ", TRAP)
 print("")
 
 #SIMPSON'S RULE
+SIM = (TRAP + 2*sum(MRAM))/3
+print("With Simpson's Rule: S= ", SIM)
