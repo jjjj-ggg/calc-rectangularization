@@ -42,3 +42,8 @@ while i <= (b-((b-a)/(2*n))):
     i += ((b-a)/n)
 print("MRAM= ", sum(MRAM))
 #print(MRAM)
+print("")
+
+#TRAPEZOIDAL RULE
+TRAP= (sum(LRAM)+sum(RRAM))/2
+print("With the trapezoidal rule: T= ", TRAP)
