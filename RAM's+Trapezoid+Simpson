@@ -47,3 +47,6 @@ print("")
 #TRAPEZOIDAL RULE
 TRAP= (sum(LRAM)+sum(RRAM))/2
 print("With the trapezoidal rule: T= ", TRAP)
+print("")
+
+#SIMPSON'S RULE
